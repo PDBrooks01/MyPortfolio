@@ -1,0 +1,23 @@
+/* Navbar Styling */
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-block-size: 1925px 70px;
+    background-color: rgb(26, 181, 201);
+    padding: 20px;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+}
+.nav-wrapper > .right-side{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.right-side > .socials > a > img {
+    width: 22px;
+    height: 22px;
+    padding: 1.5px;
+}
