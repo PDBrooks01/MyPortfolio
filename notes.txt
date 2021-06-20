@@ -1,0 +1,31 @@
+TODO Items:
+1. NavBar
+    -Links for Contact form, LinkedIn,Github, Food Instagram
+    -Logo Link for with my name
+2. About Me
+    -Title of page with my image
+    - Modal for About me Section
+3.Skills Area
+    -List of Skills with Percentage of knowlwedge 
+    -Current Udemy Courses taken?
+
+4. Portfolio
+    -Grid of Projects that I have worked on
+        -Name of project
+        -Image of Project Homepage 
+    -Hover to display descirption of project 
+    -click to display video of working project 
+5. Contact Form 
+    -Name,Email,Message to me 
+    -onSubmit send message to my email
+        -Add ability to request a copy sent to Messenger email 
+    
+6.Review Section
+    -Reviews on a carosel
+    -Leave Review onClick displays Review Form 
+    -Form Inputs
+        -Name,title, Work location, Honest Review (max character limit tbd)
+        -onSubmit display "Thank you for your review"
+ 7.Footer
+    -Icon Links for Instagram,Github,LinkedIn
+    -Patrice Brooks ©️ {Javascript for the Year}
