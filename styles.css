@@ -217,22 +217,71 @@
 
 /* Contact Form Styling */
 
-.contact-wrapper{
+.contact-wrapper {
     background-color: rgb(112,112,112);
-    display: flex;
-    max-block-size: 1366px;
+    max-block-size: 1925px;
     margin-top: .25rem;
+    padding: 1em;
 }
-.contact-title{
-    color: rgb(26, 181, 201);
-    font-size: 2em;
+.form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    border-top: 7px solid rgb(211,122,0);
+    border-bottom: 7px solid rgb(211,122,0);
 }
-
+.contact-title {
+    color:rgba(0,0,0,0,.95);
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: underline rgb(211,122,0);
+}
+.name {
+    background-color: rgb(26, 181, 201);
+    color: rgb(255, 255, 255);
+}
+.phone {
+    background-color: rgb(26, 181, 201);
+    color: rgb(255, 255, 255);
+}
+.email {
+    background-color: rgb(26, 181, 201);
+    color: rgb(255,255,255);
+}
+.message {
+    background-color: rgb(26, 181, 201);
+    overflow: hidden;
+    height: 10em;
+}
+.formEntry {
+    display: block;
+    margin: 20px auto;
+    min-width: 400px;
+    padding:10px;
+    border-radius: 2px;
+    border:none;
+}
+.submit {
+    width: 100px;
+    color: rgb(255,255,255);
+    background-color: rgb(112,112,112);
+    font-size: 20px;
+}
+.submit:hover,
+.submit:focus{
+    background-color: rgb(211,122,0);
+}
 /* Review Styling */
 .review-wrapper{
     background-color: rgb(112,112,112);
+    position: static;
     display: flex;
     max-block-size: 1366px;
     margin-top: .25rem;
