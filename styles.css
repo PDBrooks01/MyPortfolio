@@ -175,3 +175,62 @@
     height: 22px;
     padding: 1.5px;
 }
+
+/* Skills Section Styling */
+
+.skills-wrapper{
+    background-color: rgb(112,112,112);
+    display: flex;
+    max-block-size: 1366px;
+    margin-top: .25rem;
+}
+.skill-title{
+    color: rgb(26, 181, 201);
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Portfolio Styling */
+
+.portfolio-wrapper{
+    background-color: rgb(112,112,112);
+    display: flex;
+    max-block-size: 1366px;
+    margin-top: .25rem;
+}
+.portfolio-title{
+    color: rgb(26, 181, 201);
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact Form Styling */
+
+.contact-wrapper{
+    background-color: rgb(112,112,112);
+    display: flex;
+    max-block-size: 1366px;
+    margin-top: .25rem;
+}
+.contact-title{
+    color: rgb(26, 181, 201);
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Review Styling */
+.review-wrapper{
+    background-color: rgb(112,112,112);
+    display: flex;
+    max-block-size: 1366px;
+    margin-top: .25rem;
+}
+.review-title{
+    color: rgb(26, 181, 201);
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
