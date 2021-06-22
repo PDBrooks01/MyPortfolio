@@ -1,4 +1,158 @@
-/* Navbar Styling */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    line-height:1.6;
+    min-height:100vh;
+    display:grid;
+    place-items:center;
+  }
+  .card{
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width:100%;
+    max-width:1925px;
+    display:flex;
+    flex-direction: column;
+    background:rgb(112,112,112);
+    color:rgb(255,255,255);
+    text-align:center;
+    padding: 2em;
+    margin-top: .25rem;
+  }
+  .profile-name{
+    font-size: 3.5rem;
+    line-height:1.1;
+    letter-spacing:1px;
+  }
+  .profile-name::after{
+    content:"";
+    display:block;
+    height:1px;
+    width:2em;
+    background: rgb(211,122,0);
+    margin: 0.7em auto 0.5em;
+    
+  }
+  .profile-position{
+    margin:0;
+    text-transform:uppercase;
+    font-size:0.875em;
+    letter-spacing:3px;
+    color:rgb(26, 181, 201);
+    margin-bottom:2em;
+  }
+  .profile-body{
+    font-weight:300;
+    opacity:0.8;
+    margin-bottom:0;
+    color: #000;
+  }
+  .profile-image{
+    border-radius:50%;
+    border: 4px solid rgb(26, 181, 201);
+    max-block-size: 350px;
+  }
+  .social-list {
+    display:flex;
+    justify-content:space-around;
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:150px;
+    margin: 0 auto;
+    padding-top: 1em;
+  }
+  .social-link {
+    color:rgb(211,122,0);
+  }
+  .social-link:hover,
+  .social-link:focus {
+    color:rgb(26, 181, 201);
+  }
+  .button-theme{
+      background-color: white;
+      border:2px solid rgb(26, 181, 201);
+      color:rgb(211,122,0);
+      padding:0.35rem;
+  }
+  .button-theme:hover,
+  .button-theme:focus{
+      color: rgb(211,122,0);
+      border:2px solid rgb(211,122,0);
+  }
+  .button-theme-cl{
+    color:rgb(255, 255, 255);
+    float: right;
+}
+.button-theme-cl:hover,
+.button-theme-cl:focus{
+    color: rgb(255,0,0);
+}
+  .overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:99;
+    background:#000;
+    pointer-events:none;
+    opacity:0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  input[type="checkbox"]:checked ~ .overlay{
+    pointer-events:auto;
+    opacity:0.9;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: transform 0.5s ease, opacity 0.5s ease;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .modal {
+    position:fixed;
+    top:50%;
+    left:50%;
+    z-index: 100;
+    -webkit-transform: translate(-50%,-50%) scale(0.5);
+            transform: translate(-50%,-50%) scale(0.5);
+    width:100%;
+    max-width:650px;
+    pointer-events:none;
+    opacity:0;
+  }
+  input[type="checkbox"]:checked ~ .modal {
+    pointer-events: auto;
+    opacity: 1;
+    -webkit-transform: translate(-50%,-50%) scale(1);
+            transform: translate(-50%,-50%) scale(1);
+    -webkit-transition: transform 0.5s ease, opacity 0.5s ease;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+    transition-delay: 0.1s;
+  }
+  .modal_content{
+    display: block;
+    padding:1.5rem;
+    background: rgb(112,112,112);
+  }
+  
+  @media(min-width:650px) {
+    .card {
+      flex-direction: row;
+    }
+    .profile-main{
+      text-align:center;
+      margin-left:2em;
+    }
+    .profile-name::after{
+      margin-left:0;
+      width: 5em;
+    }
+  }
+
+  /* Navbar Styling */
 .nav-wrapper{
     display:flex;
     justify-content: space-between;
