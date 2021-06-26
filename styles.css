@@ -193,17 +193,19 @@
 .right-side{
     display: flex;
     align-items: center;
-}
-.nav-wrapper > .right-side{
     margin-right: 20px;
     font-size: 0.9em;
 }
-
-.right-side > .socials > a > img {
-    width: 22px;
-    height: 22px;
-    padding: 1.5px;
+.contact-link{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2px;
 }
+.contact-link:hover,
+.contact-link:focus{
+    color: rgb(211,122,0);
+}
+
 
 /* Skills Section Styling */
 
