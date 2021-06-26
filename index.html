@@ -24,17 +24,17 @@
                 <img class="profile-image" src="images/my_photo.jpg" alt="Patrice">
                     <ul class="social-list">
                         <li class="social-item">
-                            <a aria-label="instagram" class="social-link" href="https://www.instagram.com/omgfoodwhatwhere/?hl=en">
+                            <a aria-label="instagram link" class="social-link" href="https://www.instagram.com/omgfoodwhatwhere/?hl=en">
                                 <i class="fab fa-instagram"></i>
                             </a>
                        </li>
                        <li class="social-item">
-                            <a aria-label="LinkedIn" class="social-link" href="https://www.linkedin.com/in/patricebrooks/">
+                            <a aria-label="LinkedIn link" class="social-link" href="https://www.linkedin.com/in/patricebrooks/">
                                 <i class="fab fa-linkedin"></i>
                              </a>
                         </li>
                        <li class="social-item">
-                            <a aria-label="github" class="social-link" href="https://github.com/PDBrooks01">
+                            <a aria-label="github link" class="social-link" href="https://github.com/PDBrooks01">
                                 <i class="fab fa-github-square"></i>
                             </a>
                        </li>
@@ -45,7 +45,7 @@
                     <p class="profile-position">Industrial Engineer turned Software Engineer</p>
                     <input type="checkbox" id="click" style="display:none"/>
                     <label class="button" for="click">
-                        <a class="button-theme"> View More</a>
+                        <a class="button-theme"> Click Here</a>
                     </label>
                     <div class="modal">
                         <div class="modal_content">
@@ -57,7 +57,12 @@
                             Hi! I'm Patrice!  <br>
                             I am a Full-Stack Software Engineer with a background in Manufacturing, Project Management, and User Testing.<br>
                             As an Industrial Engineer I worked to elimitate Muda from the production environment.<br>
-                            As a Software Engineer, I'll translate those same concepts to write code that is S.O.L.I.D and create designs with less C.R.A.P.
+                            As a Software Engineer, I'll translate those same concepts to write code that is <a class="solid-link" href="https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design">S.O.L.I.D</a> and create designs with less <a class="crap-link" href="https://vwo.com/blog/crap-design-principles/">C.R.A.P.</a>
+                          </p>
+                          <p class="profile-body">
+                            When I'm not coding, I like to travel to new places and experience all that this world has to offer!<br><br>
+                            If you want to checkout my<a aria-label="instagram link" class="insta-link" href="https://www.instagram.com/omgfoodwhatwhere/?hl=en">
+                            Foodstagram</a>, you won't be disappointed!
                           </p>
                         </div>
                     </div>
@@ -110,8 +115,35 @@
             
         </div>
 
-        <div class="portfolio-wrapper">
-            <h1 class="portfolio-title">Portfolio</h1>
+        <div class="project-wrapper">
+            <h1 class="project-title">My Projects</h1>
+            <a class="project-link" href="#">
+                <div class="project-grid">
+                    <p>Maiden's Choice</p>
+                    <p hidden="true">Full CRUD app, allowing users to rate and search for Dog Toys</p>
+                </div>
+            </a>
+            <a class="project-link" href="#">
+                <div class="project-grid">
+                    <p>Pup Shop</p>
+                    <p hidden="true">Ecommerce app allowing users to purchase pet food,toys,treats, and more!</p>
+                    <p hidden="true"> React-Redux,React Hooks,Firebase,GraphQL </p>
+                </div>
+            </a> 
+            <a class="project-link" href="#">
+                <div class="project-grid">
+                    <p>Not Spotify</p>
+                    <p hidden="true">
+                        Spotify but not really. This app allows users to create/delete playlist and add/remove songs from their playlist.
+                        This was the group effort of (Add Thay and John).
+                    </p>
+                    <p hidden="true"> MongoDB,Express,React,NodeJS </p>
+                </div>
+            </a>
+            <div class="bottom">
+
+            </div>
+
         </div>
 
         <div class="contact-wrapper" id="Contact">
@@ -126,11 +158,11 @@
                 <button class="submit formEntry" type="submit">Send Message</button>
             </div>
         </div>
-<!-- 
-        <div class="review-wrapper">
+
+        <div class="testimonial-wrapper">
             
-            <h3 class="review-title">Reviews</h3>
-        </div> -->
+            <h3 class="testimonial-title">Testimonials</h3>
+        </div> 
         
     </div>  
 </body>

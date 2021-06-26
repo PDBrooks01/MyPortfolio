@@ -49,6 +49,34 @@
     margin-bottom:0;
     color: #000;
   }
+  .solid-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .solid-link:visited{
+    color: rgb(26, 181, 201);
+}
+  .crap-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
+  .crap-link:visited{
+      color: rgb(26, 181, 201);
+  }
+  .insta-link{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
+  .insta-link:visited{
+      color: rgb(26, 181, 201);
+  }
+
+ 
   .profile-image{
     border-radius:50%;
     border: 4px solid rgb(26, 181, 201);
@@ -185,7 +213,7 @@
     margin-top: .25rem;
 }
 .skill-title{
-    color: rgb(26, 181, 201);
+    color: rgb(255,255,255);
     font-size: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -200,7 +228,7 @@
 .skill-list{
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(200px,auto));
-
+    padding-bottom: 1.5em;
     justify-content: space-evenly;
 }
 .grid {
@@ -223,17 +251,38 @@
 }
 /* Portfolio Styling */
 
-.portfolio-wrapper{
+.project-wrapper{
     background-color: rgb(112,112,112);
-    display: flex;
+    display: grid;
     max-block-size: 1366px;
     margin-top: .25rem;
 }
-.portfolio-title{
+.project-link{
+    text-decoration: none;
     color: rgb(26, 181, 201);
+    cursor: pointer;
+}
+.project-title{
+    color: rgb(255, 255, 255);
     font-size: 2em;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.project-grid {
+    border: 3px solid rgb(26, 181, 201);
+    background-color:rgb(255,255,255);
+    max-width: 60%;
+    padding:1.5em;
+    margin:1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.bottom{ /*Adding space to the bottom of this section, maybe take out later*/
+    margin-bottom: 25px;
 }
 
 /* Contact Form Styling */
@@ -308,15 +357,15 @@
     background-color: rgb(211,122,0);
 }
 /* Review Styling */
-.review-wrapper{
+.testimonial-wrapper{
     background-color: rgb(112,112,112);
     position: static;
     display: flex;
     max-block-size: 1366px;
     margin-top: .25rem;
 }
-.review-title{
-    color: rgb(26, 181, 201);
+.testimonial-title{
+    color: rgb(255, 255, 255);
     font-size: 2em;
     margin-left: auto;
     margin-right: auto;
