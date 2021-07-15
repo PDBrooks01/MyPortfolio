@@ -22,6 +22,9 @@
     margin-top: .25rem;
     justify-content: center;
   }
+  .profile-main{
+    margin-top: 40px;
+  }
   .profile-name{
     font-size: 3.5rem;
     line-height:1.1;
@@ -43,12 +46,13 @@
     
   } */
   .profile-position{
-    margin:0;
+    margin-top: 50px;
     text-transform:uppercase;
     font-size:0.875em;
     letter-spacing:3px;
     color:rgb(26, 181, 201);
     margin-bottom:2em;
+    top: 30px;
   }
   .profile-body{
     font-weight:300;
@@ -248,7 +252,7 @@
     
 }
 .grid {
-  width: 30%;
+  width: 40%;
     border: 3px solid rgb(26, 181, 201);
     background-color:rgb(255,255,255);
     padding:1.5em;
@@ -282,11 +286,11 @@
     max-block-size: 1366px;
     margin-top: .25rem;
 }
-.project-link{
+/* .project-link{
     text-decoration: none;
     color: rgb(26, 181, 201);
-    cursor: pointer;
-}
+    cursor: pointer; */
+/* } */
 .project-title{
     color: rgb(255, 255, 255);
     font-size: 2em;
@@ -301,14 +305,27 @@
     background-color:rgb(255,255,255);
     max-width: 60%;
     padding:1.5em;
-    margin:1em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    margin:0 auto;
+    margin-bottom: 10px; 
+}
+.project-name{
+  color: rgb(26, 181, 201);
+  font-size: 1.5em;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.project-name:hover,
+.project-name:focus,
+.project-name:active{
+  color: #000;
+  text-decoration: underline;
 }
 video{
   width:90%;
   border: 0.2rem solid rgb(112,112,112);
+  display: block;
+  margin:0 auto;
 }
 
 .bottom{ /*Adding space to the bottom of this section, maybe take out later*/
