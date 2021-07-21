@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patrice Brooks,MSE</title>
     <script src="https://kit.fontawesome.com/64c6c660c9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="nav-wrapper">
             <div class="left-side">
-             <a href="index.html" style="text-decoration: none;"><img src="images/" alt="P.B. Logo" /></a>
+             <a  class="logo-link" href="index.html" style="text-decoration: none;"><p class="logo">PB</p></a>
             </div>
             <div class="right-side">
                 <a href="#Contact"  class="contact-link" style="text-decoration: none;"> Contact Me </a>
@@ -55,12 +58,6 @@
                                 <a class="button-theme-cl"> X </a>
                             </label>
                           <h2> About Me</h2>
-                          <!-- <p class="profile-body">
-                            Hi! I'm Patrice!  <br>
-                            I am a Full-Stack Software Engineer with a background in Manufacturing, Project Management, and User Testing.<br>
-                            As an Industrial Engineer I worked to elimitate Muda from the production environment.<br>
-                            As a Software Engineer, I'll translate those same concepts to write code that is <a class="solid-link" href="https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design">S.O.L.I.D</a> and create designs with less <a class="crap-link" href="https://vwo.com/blog/crap-design-principles/">C.R.A.P.</a>
-                          </p> -->
                           <p class="profile-body">
                             Hi! I'm Patrice! <br>
                             I am an Industrial Engineer turned Full Stack Software Engineer who has a passion for leadership and organization. 
@@ -168,25 +165,34 @@
                 </div>
                 </div>
             </ul>
-            <!-- <div class="framework-grid">
-                <i class="fab fa-js-square"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-react"></i>
-                <i class="fab fa-node-js"></i>
-            </div> -->
         </section>
         </div>
 
         <div class="project-wrapper">
             <h1 class="project-title">My Projects</h1>
-            <a class="project-link" href="https://maidens-choice.herokuapp.com/maidenschoice">
                 <div class="project-grid">
-                    <a class="project-name" href="https://maidens-choice.herokuapp.com/maidenschoice">Maiden's Choice</a>
+                    <a class="project-link" href="https://maidens-choice.herokuapp.com/maidenschoice">
+                        <p class="project-name">Maiden's Choice</p>
+                        <p class="project-descr">Full CRUD app, allowing users to review dog toys based on their dogs play style.</p>
+                        <p class="project-descr" style="color: rgb(211, 122, 0); padding: 10px 0 10px 0;"> MVC using EJS, NodeJS, and MongoDB</p>
+                    </a>
                     <video playsinline autoplay loop muted controls controlslist="nodownload" src="videos/maidens-choice-preview.mp4"> </video>
-                    <p hidden="true">Full CRUD app, allowing users to rate and search for Dog Toys</p>
                 </div>
-            </a>
+        
+                <div class="project-grid">
+                    <a class="project-link" href="https://project-3-notspotify-frontend.herokuapp.com/">
+                    <p class="project-name">Not Spotify</p>
+                    <p class="project-descr">
+                        Spotify but not really. This app allows users to create/delete playlist and add/remove songs from their playlist.
+                    </p>
+                    <p class="project-descr"> 
+                         App was created in collaboration with Pattarapon Siwapornchai and John Raymond.
+                    </p>
+                    <p class="project-descr" style="color: rgb(211, 122, 0); padding: 10px 0 10px 0;"> ReactJS, MongoDB,Express,NodeJS,Musixmatch API </p>
+                    </a>
+                    <video playsinline autoplay loop muted controls controlslist="nodownload" src="videos/Not-Spotify.mp4"> </video>
+                </div>
+           
             <!-- <a class="project-link" href="#" >
                 <div class="project-grid"></div>
                     <a class="project-name">Pup Shop</a>
@@ -194,21 +200,9 @@
                     <p hidden="true"> React-Redux,React Hooks,Firebase,GraphQL </p>
                 </div>
             </a>  -->
-            <a class="project-link" href="https://project-3-notspotify-frontend.herokuapp.com/">
-                <div class="project-grid">
-                    <a class="project-name" href="https://project-3-notspotify-frontend.herokuapp.com/">Not Spotify</a>
-                    <video playsinline autoplay loop muted controls controlslist="nodownload" src="videos/Not-Spotify.mp4"> </video>
-                    <p hidden="true">
-                        Spotify but not really. This app allows users to create/delete playlist and add/remove songs from their playlist.
-                        This was the group effort of (Add Thay and John).
-                    </p>
-                    <p hidden="true"> MongoDB,Express,React,NodeJS </p>
-                </div>
-            </a>
             <div class="bottom">
 
             </div>
-
         </div>
 
         <div class="contact-wrapper" id="Contact">
